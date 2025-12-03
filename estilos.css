@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fb;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.destinos-resumen {
+    display: flex;
+    gap: 12px;
+}
+
+.tarjeta-destino, .grid-destinos article {
+    background-color: #e0f2ff;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.grid-destinos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 8px;
+}

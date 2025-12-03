@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto – Caribe Colombiano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>Formulario de contacto</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="contacto.html" class="activo">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <form>
+        <label>Nombre:
+            <input type="text" required>
+        </label>
+
+        <label>Email:
+            <input type="email" required>
+        </label>
+
+        <label>Edad:
+            <input type="number" min="18" max="70">
+        </label>
+
+        <label>Mensaje:
+            <textarea></textarea>
+        </label>
+
+        <label>
+            <input type="checkbox" required> Acepto términos
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<footer>
+    <p>Formulario de práctica académica.</p>
+</footer>
+
+</body>
+</html>
